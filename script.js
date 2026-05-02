@@ -1,3 +1,10 @@
+let isNewVisit = localStorage.getItem("visited") || "false"
+if (isNewVisit !== "true") {
+    const myModal = new bootstrap.Modal(document.getElementById('welcomeModal'));
+    myModal.show();
+    localStorage.setItem("visited", "true");
+}
+
 const breakpoints = { sm: 360, md: 768, lg: 1024, xl: 1400 };
 
 const propMap = {
@@ -45,6 +52,7 @@ const propMap = {
     cursor: "cursor",
     animate: "animation",
     trans: "transition",
+    shape: "shape-outside"
 };
 
 const setStyle = (elem) => {

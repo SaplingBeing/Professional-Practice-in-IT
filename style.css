@@ -74,6 +74,13 @@
 }
 
 @font-face {
+    font-family: 'Bokor';
+    src: url('fonts/Bokor-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'RobotoSerif';
     src: url('fonts/RobotoSerif-VariableFont.ttf') format('truetype');
     font-weight: normal;
@@ -157,7 +164,7 @@ html, body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .slider {
-    animation: 10s slide infinite linear running;
+    animation: 20s slide infinite linear running;
 }
 
 .hover-stop:hover {
