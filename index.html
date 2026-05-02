@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATE WAREWARE</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="overflow-x-hidden">
+    <section class="section-container container-fluid align-content-center py-4 py-md-5 text-white font-[BHegarty] fsz-[1.2rem] bg-[#D43A3A]" id="heading">
+        <h1 class="text-uppercase ms-1 ms-md-4 fsz-[clamp(2rem,_5vw,_4rem)]">Case Study</h1>
+        <h1 class="text-uppercase ms-1 ms-md-4 fsz-[clamp(3.5rem,_6vw,_5.6rem)]">mate</h1>
+        <h1 class="text-uppercase ms-1 ms-md-4 fsz-[clamp(2.5rem,_10vw,_8rem)]">wareware.nz</h1>
+        <p class="text-uppercase ms-1 ms-md-4 font-[Inter]">By: Justin D. Grumal, Lois Dara D. Sanglap, Dustin Dwayne N. Diaz</p>
+    </section>
+
+    <section class="section-container container-fluid d-flex justify-content-center align-items-center">
+        <div class="container h-[450px] position-relative d-flex justify-content-center align-items-center flex-column">
+            <p class="p-[3rem] mb-md-5 d-block w-100 text-center blockquote fsz-[clamp(2.8rem,_5vw,_3.2rem)] font-[PatrickHand] wrap-[balance]">
+                "You come into this world as a baby, you go back to that world as a baby."</p>
+            <p class="d-block w-75 text-end blockquote-footer fsz-[1.25rem] font-[PatrickHand]">Te Hau Ora O Ngāpuhi</p>
+            <img src="public/ship-card.png" alt="" class="img-fluid w-[16vw] ms-md-4 m-[0_0_0_0.75rem] position-absolute bottom-0 start-0">
+        </div>
+    </section>
+
+    <section class="section-container bg-[#1E1E1E] py-md-0 py-5 position-relative overflow-hidden text-md-start">
+        <div class="w-100 md:w-[55%] ms-lg-5 ms-2 text-white py-md-5 px-2">
+            <h1 class="mt-md-4 text-uppercase display-3 font-[BHegarty]">What is it?</h1>
+            <h2 class="text-uppercase display-6 font-[ArchivoBlack] bg-white text-black d-inline-block px-2">He aha tērā?</h2>
+            <p class="mb-md-4 wrap-[balance] fsz-[clamp(1.6rem,_3.5vw,_1.8rem)]">An application that supports whānau (family)
+            in navigating the journey of mate wareware (dementia) with confidence and aroha (love).</p>
+            <button type="button" class="d-md-inline-block d-none mt-4 fsz-[2.5rem] btn rounded-pill bg-white px-5 py-2 text-[black] font-[BHegarty]">Learn More</button>
+            <div class="container d-flex d-md-none justify-content-center align-items-center">
+                <button type="button" class="mt-4 fsz-[2.5rem] btn rounded-pill bg-white px-5 py-2 text-[black] font-[BHegarty]">Learn More</button>
+            </div>
+        </div>
+        <div class="d-md-flex d-none transform-[scale(98.9%)] lg:transform-[scale(112%)] position-absolute h-[70%] p-4 rounded-circle ratio-[1/1] bg-white right-[-9%] top-[10%]" id="maori-brain">
+            <img src="public/maori-brain.png" alt="" class="img-fluid">
+        </div>
+    </section>
+
+    <section class="section-container bg-[red]">
+        <div class="container py-4">
+            <div class="w-100 d-flex justify-content-center align-items-center flex-column">
+                <h1 class="text-uppercase display-2 text-white font-[BHegarty] text-center mt-4">Who Uses It?</h1>
+                <h2 class="text-uppercase display-6 p-[0_16%] bg-white font-[BHegarty] text-center">ko wai e whakamahi ana?</h2>
+            </div>
+            <div id="user-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item py-5 active">
+                        <div class="card-wrapper container-sm d-flex justify-content-around my-3">
+                            <a class="cursor-[pointer] text-decoration-none" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="public/users/Marae.jpg" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center fw-bold">Whanau</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item py-5">
+                        <div class="card-wrapper container-sm d-flex justify-content-around my-3">
+                            <a class="cursor-[pointer] text-decoration-none" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="public/users/Kaiwhakahaere.jpg" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center fw-bold">Kaiwhakahaere</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item py-5">
+                        <div class="card-wrapper container-sm d-flex justify-content-around my-3">
+                            <a class="cursor-[pointer] text-decoration-none" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="public/users/Kaumatua.jpg" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center fw-bold">Kaumatua</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-indicators bot-[-2rem]">
+                    <button type="button" data-bs-target="#user-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#user-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#user-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#user-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#user-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-container bg-black">
+        <div class="container-fluid font-[ArchivoBlack] text-white py-3">
+            <div class="container text-center py-4">
+                <h1 class="text-uppercase display-1 font-[BHegarty]">Problem It Address</h1>
+                <h2 class="text-uppercase display-3 bg-white text-black">raru e whakatauria ana e ia</h2>
+            </div>
+            <div class="container d-flex flex-column justify-content-center py-3">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-center text-md-center text-start align-items-center mx-0 mx-md-3 rounded-circle md:w-[7.5rem] w-25 p-[2%] md:ratio-[1/1] ratio-[auto] bg-[transparent] xl:bg-[white]">
+                        <p class="fw-bold display-6 w-auto text-white xl:text-[black]">1.</p>
+                    </div>
+                    <p class="mx-4 w-100 text-uppercase wrap-[balance] fsz-[clamp(1.6rem,_3.5vw,_1.8rem)]">Learn how to understand mate wareware in maori perpective</p>
+                </div>
+            </div>
+            <div class="container d-flex flex-column justify-content-center py-3">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-center text-md-center text-start align-items-center mx-0 mx-md-3 rounded-circle md:w-[7.5rem] w-25 p-[2%] md:ratio-[1/1] ratio-[auto] bg-[transparent] xl:bg-[white]">
+                        <p class="fw-bold display-6 w-auto text-white xl:text-[black]">2.</p>
+                    </div>
+                    <p class="mx-4 w-100 text-uppercase wrap-[balance] fsz-[clamp(1.6rem,_3.5vw,_1.8rem)]">helps whanau how to take care of their kaumatua</p>
+                </div>
+            </div>
+            <div class="container d-flex flex-column justify-content-center py-3">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-center text-md-center text-start align-items-center mx-0 mx-md-3 rounded-circle md:w-[7.5rem] w-25 p-[2%] md:ratio-[1/1] ratio-[auto] bg-[transparent] xl:bg-[white]">
+                        <p class="fw-bold display-6 w-auto text-white xl:text-[black]">3.</p>
+                    </div>
+                    <p class="mx-4 w-100 text-uppercase wrap-[balance] fsz-[clamp(1.6rem,_3.5vw,_1.8rem)]">Kaumatua can learn how to prevent and reduce the risk of mate wareware with the provided information</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-container container-fluid p-0">
+        <div class="d-flex flex-column w-100 text-white text-uppercase font-[BHegarty] display-2">
+            <div class="w-100 bg-[#D43A3A] text-center py-4 fsz-[clamp(2rem,_1.5rem_+_3vw,_4rem)]">Introducing</div>
+            <div class="w-100 bg-[#012169] text-center py-4">
+                <h4 class="w-100 decor-[underline] fsz-[clamp(2rem,_1.5rem_+_3vw,_4rem)] pt-3 pb-5">Te Tiriti O Waitangi</h4>
+                <img src="public/TeTiritiPartnership.png" alt="" class="img-fluid">
+            </div>
+            <div class="w-100 bg-[#005eb7] text-center py-4">
+                <div class="container d-flex justify-content-center align-items-center flex-column">
+                    <h3 class="display-2 decor-[underline]">Partnership</h1>
+                    <h3 class="my-2 p-[0_20%] display-4 font-[ArchivoBlack] bg-white text-black">Pātuitanga</h3>
+                    <h5 class="my-2 h3 font-[ArchivoBlack]">Parties Involved</h5>
+                </div>
+                <div class="overflow-hidden position-relative text-nowrap px-5">
+                    <div class="position-absolute top-0 w-[100px] h-[100%] z-3 bg-[linear-gradient(to_left,_rgba(255,_255,_255,_0),_#005eb7)] start-0"></div>
+                    <div class="position-absolute top-0 w-[100px] h-[100%] z-3 bg-[linear-gradient(to_right,_rgba(255,_255,_255,_0),_#005eb7)] end-0"></div>
+                    <div class="d-inline-block slider hover-stop h-[2.4em] my-4">
+                        <a target="_blank" href="https://www.brainresearch.co.nz/"><img src="public/partner-logos/BrainResearchNZ.png" alt="" class="h-100 mx-3"></a>
+                        <a target="_blank" href="https://www.tetitokimataora.org.nz/"><img src="public/partner-logos/MedTechCMDT.png" alt="" class="h-100 mx-3"></a>
+                        <a target="_blank" href="https://www.callaghaninnovation.govt.nz/"><img src="public/partner-logos/CallaghanInnovationNZ.png" alt="" class="h-100 mx-3"></a>
+                        <a target="_blank" href="https://dementia.nz/"><img src="public/partner-logos/DementiaNZ.png" alt="" class="h-100 mx-3"></a>
+                        <a target="_blank" href="https://www.wgtn.ac.nz/"><img src="public/partner-logos/VUW.png" alt="" class="h-100 mx-3"></a>
+                        <a target="_blank" href="https://alzheimers.org.nz/"><img src="public/partner-logos/AlzheimersNZ.png" alt="" class="h-100 mx-3"></a>
+                        <a target="_blank" href="https://www.auckland.ac.nz/"><img src="public/partner-logos/UoA.png" alt="" class="h-100 mx-3"></a>
+                        <a target="_blank" href="https://www.aut.ac.nz/"><img src="public/partner-logos/AUT.png" alt="" class="h-100 mx-3"></a>
+                        <a target="_blank" href="https://www.brainresearch.co.nz/"><img src="public/partner-logos/BrainResearchNZ.png" alt="" class="h-100 mx-3"></a>
+                        <a target="_blank" href="https://www.tetitokimataora.org.nz/"><img src="public/partner-logos/MedTechCMDT.png" alt="" class="h-100 mx-3"></a>
+                        <a target="_blank" href="https://www.callaghaninnovation.govt.nz/"><img src="public/partner-logos/CallaghanInnovationNZ.png" alt="" class="h-100 mx-3"></a>
+                        <a target="_blank" href="https://dementia.nz/"><img src="public/partner-logos/DementiaNZ.png" alt="" class="h-100 mx-3"></a>
+                        <a target="_blank" href="https://www.wgtn.ac.nz/"><img src="public/partner-logos/VUW.png" alt="" class="h-100 mx-3"></a>
+                        <a target="_blank" href="https://alzheimers.org.nz/"><img src="public/partner-logos/AlzheimersNZ.png" alt="" class="h-100 mx-3"></a>
+                        <a target="_blank" href="https://www.auckland.ac.nz/"><img src="public/partner-logos/UoA.png" alt="" class="h-100 mx-3"></a>
+                        <a target="_blank" href="https://www.aut.ac.nz/"><img src="public/partner-logos/AUT.png" alt="" class="h-100 mx-3"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100 bg-[#012169] text-center py-4">
+                <div class="container-fluid d-flex justify-content-center align-items-center flex-column">
+                    <h3 class="display-3 decor-[underline]">Participation</h1>
+                    <h3 class="my-2 p-[0_20%] display-4 font-[ArchivoBlack] bg-white text-black">Whai Wāhi</h3>
+                    <div class="d-flex align-items-end gap-3 py-2">
+                        <h6 class="display-4 text-[#D43A3A]">223</h6>
+                        <p class="h2 font-[ArchivoBlack]">kaumātua were interviewed</p>
+                    </div>
+                    <div class="d-flex align-items-end gap-3 py-2">
+                        <h6 class="display-4 text-[#D43A3A]">17</h6>
+                        <p class="h2 font-[ArchivoBlack]">focus group in</p>
+                        <h6 class="display-4 text-[#D43A3A]">6</h6>
+                        <p class="h2 font-[ArchivoBlack]">location</p>
+                    </div>
+                    <h3 class="my-2 decor-[underline] display-5">All major iwi were presented</h3>
+                    <div class="container-fluid position-relative d-flex justify-content-center my-5">
+                        <div class="position-absolute h-[40vh] w-100 bg-[#3E6FDE] bottom-50 z-[0]"></div>
+                        <div class="row z-[2]">
+                            <div class="col-md-6 col-12">
+                                <img src="public/IwiMap.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="offset-md-1 offset-0 col-md-5 d-flex justify-content-center align-content-center flex-column">
+                                <ul class="list-group gap-1 d-md-flex d-none font-[ArchivoBlack]">
+                                    <li class="ms-3 h3 text-start">kaitaia</li>
+                                    <li class="ms-3 h3 text-start">Tāmaki Makaurau</li>
+                                    <li class="ms-3 h3 text-start">Kirikiriroa</li>
+                                    <li class="ms-3 h3 text-start">Taranaki</li>
+                                    <li class="ms-3 h3 text-start">Whakatāne</li>
+                                    <li class="ms-3 h3 text-start">Whanganui-a-Tara</li>
+                                    <li class="ms-3 h3 text-start">Ōtautahi</li>
+                                </ul>
+                                <div class="container d-flex justify-content-center align-items-center">
+                                    <button type="button" class="mt-4 fsz-[2.5rem] btn rounded-pill bg-white px-5 py-2 text-[black] font-[BHegarty]">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100 bg-[#005eb7] text-center py-4">
+                <h3 class="display-3 decor-[underline]">Protection</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-container container-fluid m-0 py-3 bg-static text-uppercase">
+        <div class="container-fluid px-0">
+            <div class="w-100 p-0 mx-0 bg-black h-[1.5rem] mb-2 mt-4"></div>
+            <div class="w-100 p-0 mx-0 bg-black h-[0.5rem] mb-3"></div>
+            <h1 class="font-[Bokor] text-center display-1">Articles</h1>
+            <div class="w-100 p-0 mx-0 bg-black h-[0.5rem] mt-3"></div>
+            <div class="w-100 p-0 mx-0 bg-black h-[1.5rem] mt-2 mb-4"></div>
+        </div>
+
+        <div class="container-fluid mx-1">
+            <div class="col-8 offset-1 my-4">
+                <div class="container-fluid">
+                    <div class="row font-[BHegarty] justify-content-evenly align-items-center my-3">
+                        <div class="col-7 ws-[nowrap] fsz-[clamp(24px,calc(1.625rem_+_4vw),80px)]">Article 2</div>
+                        <div class="col-5 display-5">Absolute Sovereignty</div>
+                    </div>
+                </div>
+                <div class="my-3 py-4 bg-black text-white text-center display-5 font-[ArchivoBlack]">TINO RANGATIRATANGA</div>
+            </div>
+        </div>
+
+        <h3 class="my-2 container font-[ArchivoBlack] fsz-[2rem]">Māori having authority over their own knowledge and resources</h3>
+        
+        <!-- ARTICLE: MD+ = zigzag md- = column -->
+        <!-- TODO: Fix these stuffs
+            -> Fix font sizings, paddings, and margins
+            -> popper js for hover to view translation
+            -> modal introduction of simple guide & modal state
+
+            TODO: MODAL for each
+            -> user
+            -> view more button
+        -->
+        <!-- 5 for image | 7 for text -->
+
+        <div class="container-fluid">
+            <div class="row flex-md-row flex-column">
+                <div class="col-md-12 col-7"></div>
+                <div class="col-md-12 col-5"></div>
+            </div>
+            <div class="row flex-md-row flex-column">
+                <div class="col-md-12 col-5"></div>
+                <div class="col-md-12 col-7"></div>
+            </div>
+        </div>
+
+        <div class="container-fluid px-0">
+            <div class="w-100 p-0 mx-0 bg-black h-[0.25rem] mb-2 mt-3"></div>
+            <h4 class="h1 py-3 mx-5 font-[ArchivoBlack] text-center"> IT Industry Relevancy</h4>
+            <p class="h1 py-3 mx-5 font-[RobotoSerif]">the application shows up in how the app is shaped from a Māori worldview rather than just adapting a mainstream tool.
+                It reflects Māori ways of understanding health and ensures Māori perspectives are embedded in how the information is
+                created and presented</p>
+            <div class="w-100 p-0 mx-0 bg-black h-[0.25rem] mt-2 mb-3"></div>
+        </div>
+    </section>
+
+    <section class="container-fluid">
+<code class="ws-[pre-wrap]">
+&lt;!-- Developer Perspective --&gt;
+&lt;!-- Value 1 --&gt;
+&lt;h1&gt;Mātauranga Māori&lt;/h1&gt;
+&lt;!-- Meaning --&gt;
+&lt;ul&gt;
+    &lt;li&gt;Māori knowledge systems&lt;/li&gt;
+    &lt;li&gt;Traditional ways of knowing&lt;/li&gt;
+    &lt;li&gt;Cultural wisdom&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Value 2 --&gt;
+&lt;h1&gt;Kotahitanga&lt;/h1&gt;
+&lt;!-- Meaning --&gt;
+&lt;ul&gt;
+    &lt;li&gt;Unity&lt;/li&gt;
+    &lt;li&gt;Collective Action&lt;/li&gt;
+    &lt;li&gt;Moving in unison with a shared purpose&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;The values influence&lt;/h1&gt;
+&lt;p&gt;These values replaced standard clinical models with a collaborative co-design approach. By merging Kotahitanga and Mātauranga, developers built the app from a Māori worldview, ensuring cultural authenticity and collective community needs remained the central priority.&lt;/p&gt; 
+
+</code>
+    </section>
+
+    <div class="modal modal-dialog-scrollable fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa doloremque sed iure?
+                        Laborum, vero voluptatem nemo ab quaerat id eius provident dolores non laudantium
+                        ipsam voluptate. Laborum quia fuga quod!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Understood</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
