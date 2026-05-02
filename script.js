@@ -3,6 +3,8 @@ const breakpoints = { sm: 360, md: 768, lg: 1024, xl: 1400 };
 const propMap = {
     m: "margin", p: "padding",
     w: "width", h: "height",
+    maxw: "max-width", maxh: "max-height",
+    minw: "min-width", minh: "min-height",
     pos: "position",
     d: "display", z: "z-index",
     text: "color",
@@ -10,12 +12,18 @@ const propMap = {
     bg: "background",
     font: "font-family",
     border: "border",
+    bordertop: "border-top",
+    borderleft: "border-left",
+    borderright: "border-right",
+    borderbot: "border-bottom",
     align: "text-align",
     fsz: "font-size",
     fst: "font-style",
     fw: "font-weight",
     wrap: "text-wrap",
     ws: "white-space",
+    lh: "line-height",
+    ts: "text-shadow",
     cols: "grid-template-columns",
     rows: "grid-template-rows",
     col: "grid-column",
@@ -33,7 +41,6 @@ const propMap = {
     bot: "bottom",
     left: "left",
     ratio: "aspect-ratio",
-    border: "border",
     transform: "transform",
     cursor: "cursor",
     animate: "animation",
@@ -93,6 +100,12 @@ const debouncedApply = () => {
 
 window.addEventListener('DOMContentLoaded', applyStyles);
 window.addEventListener('resize', debouncedApply);
-
+const codeCont = document.getElementById('code-container');
+document.addEventListener('keydown', (e => {
+    if (e.ctrlKey && e.key === 'z') {
+        e.preventDefault();
+        codeCont.style.display = 'block';
+    }
+}))
 const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
 const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl,{placement:'bottom'}))

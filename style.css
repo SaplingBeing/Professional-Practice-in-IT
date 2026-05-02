@@ -157,7 +157,7 @@ html, body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .slider {
-    animation: 25s slide infinite linear running;
+    animation: 10s slide infinite linear running;
 }
 
 .hover-stop:hover {
