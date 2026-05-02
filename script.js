@@ -93,3 +93,6 @@ const debouncedApply = () => {
 
 window.addEventListener('DOMContentLoaded', applyStyles);
 window.addEventListener('resize', debouncedApply);
+
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl,{placement:'bottom'}))
