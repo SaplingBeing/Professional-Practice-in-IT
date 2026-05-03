@@ -1,3 +1,9 @@
+/* <!-- 
+Made by: 
+Lois dara d. sanglap 170000366
+Justin D. Grumal 240005134
+Dustin Dwayne N. Diaz 240005195 --> */
+
 /* FONTS */
 @font-face {
     font-family: 'AnonymousPro';
@@ -93,20 +99,32 @@
     font-weight: normal;
     font-style: italic;
 }
+
+@font-face {
+    font-family: 'VSCode';
+    src: url('fonts/CascadiaCode-VariableFont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VSCode';
+    src: url('fonts/CascadiaCode-Italic-VariableFont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
 &::-webkit-scrollbar{
     display: none;
 }
+
 html, body, p, h1, h2, h3, h4, h5, h6 {
     padding: 0;
     margin: 0;
 }
 
-.big-text {
-    font-size: calc(2rem + 8vw);
-}
-
-.semibig-text {
-    font-size: calc(1.75rem + 5vw);
+.overflow-break{
+    overflow-wrap: break-word;
 }
 
 .section-container {

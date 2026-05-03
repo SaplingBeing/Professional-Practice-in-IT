@@ -1,3 +1,8 @@
+/* Made by: 
+Lois dara d. sanglap 170000366
+Justin D. Grumal 240005134
+Dustin Dwayne N. Diaz 240005195 */
+
 let isNewVisit = localStorage.getItem("visited") || "false"
 if (isNewVisit !== "true") {
     const myModal = new bootstrap.Modal(document.getElementById('welcomeModal'));
