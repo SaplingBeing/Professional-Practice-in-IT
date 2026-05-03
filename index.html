@@ -407,7 +407,7 @@ Dustin Dwayne N. Diaz 240005195 -->
                 <span class="text-[#dc7633] fw-bold font-[PatrickHand] pe-none">&lt; &gt;</span>
                 <span class="pe-none">index.html</span>
                 <span class="fsz-[1.125rem] cursor-[pointer]" 
-                onclick="document.getElementById('code-container').style.display = 'none'">&times;</span>
+                onclick="document.getElementById('code-container').style.display = 'none'" data-bs-toggle="modal" data-bs-target="#closeFileModal">&times;</span>
             </div>
             <div class="ms-2 me-4 w-[fit-content]">
                 <code class="ws-[pre-wrap] font-[VSCode] fsz-[1rem] text-[#7A7A7A]">&lt;!<span class="text-[#8FF68F]">DOCTYPE</span> <span class="text-[#9EB6ED]">html</span>&gt;
@@ -538,10 +538,10 @@ Dustin Dwayne N. Diaz 240005195 -->
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>Matewareware.nz is an application developed with the collaborative effort of multiple licensed doctors, researchers, and organisations around New Zealand.    
-                    The application is informative as it helps users navigate the sensitive subject of mate wareware (dementia) in the Māori and Pākehā (European) perspective, enriching the user’s over all world view on the topic.    
-                    For instance, within the Māori context, mate wareware is perceived as a symptom of growing old; whereas, pākehā deems mate wareware as a illness.
-                    In addition to helping users bridge the gap in understanding of mate wareware, the application provides proactive steps for your whānau to take in order to protect your kaumātua’s health, preventing the risk of getting mate wareware through simple lifestyle changes.
+                    <p>Matewareware.nz is an application developed with the collaborative effort of multiple licensed doctors, researchers, and organisations around New Zealand.<br><br>    
+                    The application is informative as it helps users navigate the sensitive subject of mate wareware (dementia) in the Māori and Pākehā (European) perspective, enriching the user’s over all world view on the topic.<br><br>    
+                    For instance, within the Māori context, mate wareware is perceived as a symptom of growing old; whereas, pākehā deems mate wareware as a illness.<br><br>
+                    In addition to helping users bridge the gap in understanding of mate wareware, the application provides proactive steps for your whānau to take in order to protect your kaumātua’s health, preventing the risk of getting mate wareware through simple lifestyle changes.<br><br>
                     Visit <a href="https://www.matewareware.nz" class="text-black">matewareware.nz</a> to learn more.</p>
                 </div>
                 <div class="modal-footer">
@@ -560,7 +560,7 @@ Dustin Dwayne N. Diaz 240005195 -->
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>Kaumātua can learn how to prevent mate wareware or delay its progression further by following the steps cited in their website.<br>For example, Kaumātua can make lifestyle changes such as reducing alcohol or tobacco intake and exercising at least 30 mins a day.</p>
+                    <p>Kaumātua can learn how to prevent mate wareware or delay its progression further by following the steps cited in their website.<br><br>For example, Kaumātua can make lifestyle changes such as reducing alcohol or tobacco intake and exercising at least 30 mins a day.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" data-bs-dismiss="modal" aria-label="Close" class="btn btn-primary">Close</button>
@@ -616,8 +616,8 @@ Dustin Dwayne N. Diaz 240005195 -->
                 <div class="modal-body">
                     <p>matewareware.nz was created in collaboration of doctors specializing in dementia and Alzheimer; university student
                         researchers, and organizations to compile their knowledge to spread awareness.<br><br>In relation to IITP's code of ethics
-                        (4, 5 & 8), the developers must be skilled and competent about  mate wareware when developing the app. Members must
-                        continuously contribute their knowledge about mate wareware when there's new findings and</p>
+                        (4, 5 & 8), the web developers must utilise their skill set appropriately when developing the application. Furthermore, contributors     must
+                        continuously contribute their knowledge about mate wareware when there is new findings.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" data-bs-dismiss="modal" aria-label="Close" class="btn btn-primary">Close</button>
@@ -657,12 +657,30 @@ Dustin Dwayne N. Diaz 240005195 -->
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>Following ITP code of ethics (6 & 1), developers made sure that when consulting kaumatuas, they ask them for their
-                        consent and be transparent on how they will store their data. more importantly that they show good faith and
-                        equality with no discriminatory and bias in the app.</p>
+                    <p>Following ITP code of ethics (6 & 1), developers made sure to ask for consent when consulting kaumatuas about their experience and relationship with mate wareware. 
+                    This can be seen through the interviews within the appliaction matwarewawre.nz.<br><br>
+                    Additionally, it is important that developers exhibit good faith and sincerity when building the app.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" data-bs-dismiss="modal" aria-label="Close" class="btn btn-primary">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal modal-dialog-scrollable fade" id="closeFileModal" data-bs-backdrop="static"
+        tabindex="-1" aria-labelledby="closeFileModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="closeFileModalLabel">File Closed Warning</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>You've stepped away from the Developer's Perspective on Mate Wareware. Think of this documentation as a digital taonga—closing it without a final look is like skipping the protocols of a formal partnership.<br><br>Show the kōrero some mana and bring it back. Press <code class="fw-bold text-bg-secondary px-1">Ctrl + Z</code> to honor the work and restore the connection.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-bs-dismiss="modal" aria-label="Close" class="btn btn-primary">Okay</button>
                 </div>
             </div>
         </div>
