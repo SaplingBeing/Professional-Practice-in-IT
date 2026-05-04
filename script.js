@@ -5,11 +5,11 @@ Dustin Dwayne N. Diaz 240005195 */
 
 let isNewVisit = localStorage.getItem("visited") || "false"
 if (isNewVisit !== "true") {
+    const myModal = new bootstrap.Modal(document.getElementById('welcomeModal'));
+    myModal.show();
     localStorage.setItem("visited", "true");
 }
 
-    const myModal = new bootstrap.Modal(document.getElementById('welcomeModal'));
-    myModal.show();
 const breakpoints = { sm: 360, md: 768, lg: 1024, xl: 1400 };
 
 const propMap = {

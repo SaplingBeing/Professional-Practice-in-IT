@@ -150,7 +150,7 @@ p{
 
 .btn{
     transition: transform 0.5s ease-out !important;
-    box-shadow: 3px 8px #111111b4 !important;
+    box-shadow: 3px 4px #111111b4 !important;
 }
 
 button:hover{
