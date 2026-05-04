@@ -123,6 +123,10 @@ html, body, p, h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+p{
+    text-align: justify;
+}
+
 .overflow-break{
     overflow-wrap: break-word;
 }
@@ -142,6 +146,16 @@ html, body, p, h1, h2, h3, h4, h5, h6 {
 
 #maori-brain {
     shape-outside: circle(50%);
+}
+
+.btn{
+    transition: transform 0.5s ease-out !important;
+    box-shadow: 3px 8px #111111b4 !important;
+}
+
+button:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in;
 }
 
 .bg-polkadots {
