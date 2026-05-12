@@ -1,5 +1,5 @@
 /* Made by: 
-Lois dara d. sanglap 170000366
+Lois dara D. sanglap 170000366
 Justin D. Grumal 240005134
 Dustin Dwayne N. Diaz 240005195 */
 

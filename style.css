@@ -1,6 +1,6 @@
 /* <!-- 
 Made by: 
-Lois dara d. sanglap 170000366
+Lois dara D. sanglap 170000366
 Justin D. Grumal 240005134
 Dustin Dwayne N. Diaz 240005195 --> */
 
@@ -137,6 +137,25 @@ p{
     animation: zoomFadeIn;
     animation-timeline: view();
     animation-range: entry 2rem;
+}
+
+.opp:hover{
+    opacity: 0.9;
+}
+
+#bannerImg{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 100vw;
+    height: 50vh;
+    pointer-events: none;
+}
+
+@media screen and (max-width: 1100px){ 
+    #bannerImg{
+        display: none;
+    }
 }
 
 #heading {
